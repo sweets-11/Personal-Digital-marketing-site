@@ -1,11 +1,8 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar";
-import Footer from "../Footer/Footer";
 import { Box, CardMedia, Typography, Button } from "@mui/material";
 const HomePage = () => {
   return (
     <Box>
-      {/* <NavBar /> */}
       <CardMedia
         component="img"
         image="src/images/3.jpg"
@@ -21,7 +18,9 @@ const HomePage = () => {
           top: { xs: 55, lg: 250 },
         }}
       >
-        <Typography sx={{ fontWeight: "bold", fontSize: { xs: 18, lg: 60 } }}>
+        <Typography
+          sx={{ fontWeight: "bold", fontSize: { xs: 18, md: 500, lg: 60 } }}
+        >
           We Connect
         </Typography>
         <Typography
