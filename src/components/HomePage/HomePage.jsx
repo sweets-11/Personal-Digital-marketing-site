@@ -5,7 +5,7 @@ const HomePage = () => {
     <Box>
       <CardMedia
         component="img"
-        image="public/static/images/3.jpg"
+        image="public/assets/3.jpg"
         alt="Paella dish"
         sx={{
           height: { xs: "none", lg: "100%" },

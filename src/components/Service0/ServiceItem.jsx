@@ -114,7 +114,7 @@ const ServicesSection = () => {
         <CardMedia
           component="img"
           height="100%"
-          image="public/static/images/image.jpg"
+          image="public/assets/image.jpg"
           alt="Descriptive Alt Text"
         />
       </Card>
